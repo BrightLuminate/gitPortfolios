@@ -86,7 +86,7 @@ const getProjectById = (id) => {
         '테스트 및 디버깅: 철저한 테스트와 디버깅 수행.',
         '최종 배포: 프로젝트 배포 및 실사용자 접근 환경 구축.',
       ],
-      link: 'https://github.com/BrightLuminate/gitPortfolio.git',
+      link: 'https://github.com/BrightLuminate/gitPortfolios.git',
     },
     {
       id: 2,
