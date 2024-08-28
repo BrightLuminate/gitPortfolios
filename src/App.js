@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './css/App.css';
+import MyComponent from './components/Mycomponent';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ProjectDetail from './components/ProjectDetail';
+import BlogDetail from './components/BlogDetail';
+import CertificationsAwards from './components/CertificationsAwards'; // Updated to PascalCase
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route  exact path="/" element={<MyComponent />} />
+        <Route path="/project/:id" element={<ProjectDetail />} />
+        <Route path="/blog/:id" element={<BlogDetail />} />
+        <Route path="/certifications-awards" element={<CertificationsAwards />} />
+      </Routes>
+    </Router>
   );
 }
 

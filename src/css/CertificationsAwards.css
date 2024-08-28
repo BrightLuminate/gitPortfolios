@@ -1,0 +1,67 @@
+.Certifications_Awards-section {
+    padding: 60px;
+    background-color: #F5F5DC;
+}
+
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
+    position: relative;
+    top: 190px;
+    left: 10px;
+}
+
+.certification-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.certification-item:hover {
+    background-color: #5282FF;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.cert-icon {
+    font-size: 2em;
+    margin-right: 20px;
+    color: #3e64ff;
+}
+
+.cert-details h3 {
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+}
+
+.cert-details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+
+/* CertificationsAwards.css */
+@media (max-width: 768px) {
+    .certifications-grid {
+      grid-template-columns: 1fr;
+      padding: 10px;
+    }
+  
+    .certification-item {
+      padding: 15px;
+      font-size: 14px;
+    }
+  }
+  

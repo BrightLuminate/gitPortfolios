@@ -1,0 +1,51 @@
+.blog-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* 항목 간의 간격을 줄임 */
+    position: relative;
+    top: 50px;
+    left: -40px;
+    padding: 20px;
+    width: 80%; /* 컨테이너의 너비를 80%로 설정 */
+    margin: 0 auto; /* 가운데 정렬 */
+  }
+  
+  /* BlogList.css */
+
+@media (max-width: 1024px) {
+  .blog-list {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-list {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+  }
+}
+
+/* ProjectList.css */
+
+@media (max-width: 1024px) {
+  .project-list {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-list {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 5px;
+  }
+}
+/* BlogList.css 및 ProjectList.css 공통 */
+@media (max-width: 480px) {
+  .blog-list,
+  .project-list {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
