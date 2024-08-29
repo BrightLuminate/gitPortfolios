@@ -234,7 +234,7 @@ function MyComponent() {
               <a href="https://www.facebook.com/profile.php?id=100012920281549" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px', fontSize: '21px', color: '#333' }}>
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
-              <a href="https://www.notion.so/Home-5c4e32d239ef4206ad17e33e87a051c0" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px', fontSize: '21px', color: '#333' }}>
+              <a href="https://www.notion.so/5c4e32d239ef4206ad17e33e87a051c0?pvs=4" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px', fontSize: '21px', color: '#333' }}>
                 <FontAwesomeIcon icon={faBook} />
               </a>
               <a href="https://portfolio-lemon-delta-86.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px', fontSize: '21px', color: '#333' }}>
@@ -383,7 +383,7 @@ function MyComponent() {
                       <br/> 
                       <br/>
                     </p>
-                    <span className="date_two">2012-2024</span>
+                    <span className="date_two">2024~</span>
                     <h2>건대병원 약제부</h2>
                     <p>병원 내에서 사용되는 모든 약물의 재고를 관리하고 의사가 처방한 약을 정확하게 환자에게 안전하고 효과적으로 복용할 수 있게 조제하는 일을 했습니다.</p>
                 </div>
