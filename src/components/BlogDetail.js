@@ -101,7 +101,7 @@ const getBlogById = (id) => {
         '항상 응원해주시면 감사합니다. 교만하지 않고 항상 겸손하는 개발자가 되겠습니다.',
         '앞으로도 끊임없이 작은것도 소중하게 여기면서 도전하고 배우며 더 좋은 코드를 작성하고 효과적인 문제 해결 능력을 갖춘 개발자가 되겠습니다.',
       ],
-      link: 'https://www.notion.so/5c4e32d239ef4206ad17e33e87a051c0?pvs=4',
+      link: 'https://wise-cayenne-e6b.notion.site/ea46f43ad90b419e9bde9e6162daba2a?pvs=4',
     },
     {
       id: 3,
