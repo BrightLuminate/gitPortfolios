@@ -234,7 +234,7 @@ function MyComponent() {
               <a href="https://www.facebook.com/profile.php?id=100012920281549" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px', fontSize: '21px', color: '#333' }}>
                 <FontAwesomeIcon icon={faFacebook} />
               </a>
-              <a href="https://www.notion.so/5c4e32d239ef4206ad17e33e87a051c0?pvs=4" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px', fontSize: '21px', color: '#333' }}>
+              <a href="https://wise-cayenne-e6b.notion.site/ea46f43ad90b419e9bde9e6162daba2a?pvs=4" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px', fontSize: '21px', color: '#333' }}>
                 <FontAwesomeIcon icon={faBook} />
               </a>
               <a href="https://portfolio-lemon-delta-86.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ marginRight: '15px', fontSize: '21px', color: '#333' }}>
