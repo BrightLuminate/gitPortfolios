@@ -1,8 +1,7 @@
 # 사이트 링크
-[create React App](https://git-portfolios.vercel.app/)
+[create React App](https://git-portfolios-oed4.vercel.app/)
 
 
-https://www.notion.so/ea46f43ad90b419e9bde9e6162daba2a?pvs=4
 
 
 # Getting Started with Create React App
