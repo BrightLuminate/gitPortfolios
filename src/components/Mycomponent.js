@@ -151,7 +151,7 @@ function MyComponent() {
           <h2>
             I'm a&nbsp;
             <span className="txt-rotate">
-              <TxtRotate period={2000} rotate={['풀스택 개발자', '스타트업 개발자', '웹 개발자', '6 개월차']} />
+              <TxtRotate period={2000} rotate={['풀스택 개발자', '스타트업 개발자', '웹 개발자']} />
             </span>
           </h2>
         </div>
